@@ -1,0 +1,390 @@
+
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+/* main body styling */
+body,h1,h2,h3,h4,h5,h6 
+{
+    font-family: Raleway, sans-serif;
+}
+/* main container styling */
+.main-container{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+/* nav-bar styling */
+.nav-bar{
+    background-color: white;
+    width: 20%;
+    padding: 40px 10px;
+    
+}
+.imge{
+    height: 40%;
+    width: 50%;
+    border: none;
+    border-radius: 15px;
+    /* padding: 10px; */
+}
+.port-heading{
+    font-weight: 600;
+}
+.para{
+    color:  #757575!important;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.list{
+    margin-top: 10px;
+}
+.mg-10{
+    margin-top: 10px;
+}
+.margin-left{
+    margin-left: 10px;
+}
+.green{
+    color: #009688!important;
+}
+.mgr-10{
+    margin-right: 10px;
+}
+.portfolio:hover , .about:hover, .contact:hover{
+    opacity: 80%;
+    background-color: #757575;
+    padding: 10px;
+
+}
+.fa:hover{
+    opacity: 50%;
+}
+.container{
+    width: 80%;
+    background-color: rgb(237, 233, 233);
+}
+
+.lower-header{
+    display: flex;
+}
+p{
+    margin: 0%;
+}
+.container{
+    padding: 10px 20px;
+}
+
+.h1, .filter{
+    padding-left: 10px;
+}
+.filter{
+    margin: 10px;
+}
+.all, .design, .photos, .art{
+    margin: 0 10px;
+}
+.btn-all{
+    background-color: black;
+    font-size: 15px!important;
+    border: none;
+    font-weight: 500;
+    padding: 10px 30px;
+    color: white;
+    text-transform: uppercase;
+}
+.btn-all:hover{
+    background-color:#ccc;
+    color: black;
+}
+.btn-design{
+    padding: 10px 30px;
+    border: none;
+    background-color: white;
+    font-size: 15px!important;
+}
+.btn-design:hover{
+    background-color:black;
+    color: white;
+
+}
+.mr10{
+    margin-right: 15px;
+}
+
+.section1{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+   
+}
+.imge1{
+    width: 100%;
+}
+.imge1:hover{
+    opacity: 50%;
+}
+
+.content{
+    background-color: white;
+    padding: 10px 10px;
+}
+.para1{
+    margin-top: 10px;
+}
+.head{
+    font-weight: bold;
+}
+.mg-b{
+    padding-bottom: 40px;
+}
+.center {
+    text-align: center;
+  }
+  
+.pagination {
+    display: inline-block;
+    padding: 50px;
+  }
+  
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+  }
+  
+.pagination a.active {
+    background-color: #101510;
+    color: white;
+    border: 1px solid #0a0c0a;
+  }
+  
+.pagination a:hover:not(.active)
+   {
+       background-color: rgb(9, 8, 8); 
+       color: white;
+    }
+
+.section2{
+    display: flex;
+}
+  .imge2, .imge3{
+    width: 49%;
+}
+.imge2 > img{
+    width: 98%;
+}
+.imge3 > img{
+    width: 98%;
+}
+
+.w3-grey{
+    text-align: center;
+    height:34px;
+    padding: 10px 0;
+    color: #fff!important;
+    background-color: #616161!
+}
+.btn {
+    background-color: rgb(123, 115, 115);
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 10px 0px;
+  }
+.btn:hover {
+    background-color: rgb(212, 203, 203);
+  }
+.column {
+    float: left;
+    /* width: 33.33%; */
+    text-align: center;
+  }
+  
+  /* Clear floats after the columns */
+.row{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* .column{
+      border: 1px solid blue; */
+  /* } */
+  .btn-container{
+    background-color: white;
+    margin-top: 1px;
+  }
+  .bt-s{
+    background-color: #009688;
+    color: white;
+    padding: 14px 30px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    
+  }
+  
+  button:hover {
+    opacity:1;
+  }
+
+  #contact{
+      color: white;
+  }
+  .column1{
+    float: left;
+    width: 100%;
+    padding: 10px;
+    height: 100px;
+    text-align: center;
+  }
+
+  input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+.button5{
+    
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+ .row{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-template-rows: 1fr;
+     
+ }
+
+ .row1{
+    display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-template-rows: 1fr;
+ }
+
+ #f1{
+    margin: 10px 0px;
+ }
+
+ .footer{
+     background-color:#616161!important;
+     padding-top: 32px!important;
+    
+ }
+
+ .label1{
+        color: white;
+        padding: 8px;
+ }
+
+ .other {
+     background-color: #d0c4c4; 
+     color: black;
+     margin: 2px;
+     display: inline-block;
+     padding: 3px;
+    }
+
+.end{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 24px!important;
+    padding-bottom: 24px!important;
+}
+
+.flex{
+    display: flex;
+}
+
+.custom-width{
+    width: 20%;
+}
+
+.margin-b-20{
+    margin-bottom: 30px;
+}
+
+.border-bottom{
+    border-bottom: 1px solid white;
+    padding: 30px;
+}
+
+.white-hover:hover{
+    background-color: #ddd;
+}
+
+.white{
+    color: white;
+}
+.bottom-b{
+    padding: 30px;
+}
+.pad{
+    margin-left: 20px;
+}
+.margin-left-20px{
+    margin-left: 20px;
+}
+
+.bold-grey{
+    background-color: grey;
+    padding: 20px;
+    margin: 10px 0 0;
+    color: white;
+}
+.line{
+    padding: 20px;
+    background-color: white;
+    color: black;
+    margin: 1px 0;
+}
+.line-custom{
+    padding: 52px 0;
+    background-color: white;
+    font-size: 30px;
+    font-weight: 400;
+}
+.bold-green{
+    background-color: #009688;
+    padding: 20px;
+    margin: 10px 0 0;
+    color: white;
+}
+.card1{
+    margin-right: 10px;
+}
